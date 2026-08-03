@@ -1,4 +1,4 @@
-package com.devops.springbootdevopsdemo;
+6package com.devops.springbootdevopsdemo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Spring Boot Docker is Working!";
+        return "Wellcome to Devops CD pipeline!";
     }
 }
